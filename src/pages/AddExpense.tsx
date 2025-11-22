@@ -44,7 +44,7 @@ export default function AddExpense() {
 
   if (loading) {
     return (
-      <div className="p-6">
+      <div className="p-6" data-testid="loading-skeleton">
         <div className="animate-pulse">
           <div className="h-8 bg-gray-200 dark:bg-gray-700 rounded w-1/4 mb-6"></div>
           <div className="space-y-4">
